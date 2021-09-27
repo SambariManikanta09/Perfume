@@ -4,14 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
     <link rel="stylesheet" href="contact.css" />
-    <title>Document</title>
+    <title>Contact Us</title>
   </head>
   <body>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i
+          ><img
+            src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png"
+        /></i>
+      </label>
+      <label class="logo">Perfume</label>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a class="active" href="#">Contact Us</a></li>
+      </ul>
+    </nav>
     <section>
-      <div class="container">
-        <div class="contactInfo"></div>
-        <div class="contactForm"></div>
+      <div class="wrapper">
+        <div class="title">
+          <h1>😃 Connect With Us 😀</h1>
+        </div>
+        <div class="contact-form">
+          <div class="input-fields">
+            <input type="text" class="input" placeholder="Name" />
+            <input type="text" class="input" placeholder="Email Address" />
+            <input type="text" class="input" placeholder="Phone" />
+            <input type="text" class="input" placeholder="Subject" />
+          </div>
+          <div class="msg">
+            <textarea placeholder="Message"></textarea>
+            <div class="btn">Send</div>
+          </div>
+        </div>
       </div>
     </section>
   </body>
