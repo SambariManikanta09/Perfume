@@ -38,6 +38,7 @@ nav ul li {
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
+  overflow: hidden;
 }
 
 nav ul li a {
@@ -139,6 +140,7 @@ a:hover {
   left: 80px;
   height: 75%;
   width: 30%;
+  overflow: hidden;
 }
 
 .moto {
