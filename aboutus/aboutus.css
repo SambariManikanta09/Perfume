@@ -4,12 +4,12 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  overflow-y: scroll;
 }
 section {
   width: 100%;
   min-height: 100vh;
   background-color: #c5ecfd;
+  overflow-y: scroll;
 }
 .container {
   width: 80%;
