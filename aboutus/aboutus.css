@@ -8,7 +8,9 @@
 .section {
   width: 100%;
   min-height: 100vh;
-  background-color: #c5ecfd;
+  /* background-color: #c5ecfd; */
+  background: url("../Images/background11.jpg") no-repeat fixed center;
+  background-size: cover;
 }
 .container {
   width: 79%;
@@ -82,7 +84,7 @@
     display: block;
     margin: auto;
   }
-  .image-section {
+  /* .image-section {
     float: none;
     width: 100%;
   }
@@ -91,7 +93,7 @@
     height: auto;
     display: none;
     margin: auto;
-  }
+  } */
   .content-section .title {
     text-align: center;
     font-size: 19px;
