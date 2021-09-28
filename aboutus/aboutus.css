@@ -4,18 +4,17 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  overflow-y: scroll;
 }
-section {
+.section {
   width: 100%;
   min-height: 100vh;
   background-color: #c5ecfd;
 }
 .container {
-  width: 80%;
+  width: 79%;
   display: block;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 .content-section {
   float: left;
@@ -90,7 +89,7 @@ section {
   .image-section img {
     width: 100%;
     height: auto;
-    display: block;
+    display: none;
     margin: auto;
   }
   .content-section .title {
