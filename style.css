@@ -10,6 +10,7 @@
   /* overflow: hidden; */
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
+  /* scrollbar-color: #d4aa70 #e4e4e4; */
 }
 /* 0082e6 db4d75 */
 nav {
@@ -206,4 +207,17 @@ a:hover {
   text-align: center;
   font-size: 13px;
   color: rgb(128, 128, 128);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0082e6;
+  border-radius: 100px;
 }
