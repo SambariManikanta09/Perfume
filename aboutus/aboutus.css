@@ -9,7 +9,6 @@ section {
   width: 100%;
   min-height: 100vh;
   background-color: #c5ecfd;
-  overflow-y: scroll;
 }
 .container {
   width: 80%;
