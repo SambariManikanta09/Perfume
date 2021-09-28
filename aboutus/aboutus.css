@@ -46,6 +46,7 @@
   line-height: 1.5;
 }
 .content-section .content .button {
+  overflow: hidden;
   margin-top: 30px;
 }
 .content-section .content .button a {
